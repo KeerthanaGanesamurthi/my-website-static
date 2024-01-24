@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight:300;
+}
+
+.hero_section{
+    background-image: url(introduction.png);
+    min-height:height;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+}
+
+.text_container{
+    color:white;
+    max-width:900px;
+    padding-top:100px;
+    padding-left: 50px;
+    padding-bottom:64px;
+    font-weight: 400;
+}
+
+.about_work{
+    background-color: black;
+    color: white;
+    height:50px;
+    padding: 4%;
+}
+
+.h1_style{
+    text-align:center;
+    font-size: 25px;
+}
+
+.work_details{
+    padding-top:30px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.work_detail{
+    border:2px solid grey;
+    width:300px;
+    margin:5px;
+    border-radius:10px;
+    padding-bottom: 20px;
+    overflow:hidden;
+    height:fit-content;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}  
+
+.work_detail h2,p{
+    padding:10px;
+}
+
+.work_detail:hover{
+   transform:translateY(-10px);
+    cursor:pointer;
+}
+
+.footer{
+    display:flex;
+    padding-top:20px;
+    margin: 10px;
+}
+.contact_details{
+    background-color: rgb(57, 116, 57);
+    color:white;
+    padding:10px;
+    padding-left: 20px;
+    width:50%;
+}
+
+.about_details{
+    background-color: rgb(124, 39, 56);
+    color:white;
+    padding:10px;
+    padding-left: 20px;
+}
+
